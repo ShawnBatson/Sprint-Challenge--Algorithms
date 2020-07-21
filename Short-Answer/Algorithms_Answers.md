@@ -4,7 +4,7 @@
 
 a) O(n) This will be O(n) with a linear runtime. The input is fixed, so no matter what it will cap out at n _ n _ n. There will be one call per input, and the presence of a while loop directly relates to the size/amount of input.
 
-b) O(n^2) The runtime for B is O(n^2) due to the fact that there are two loops. one for loop, and one while loop. The for loop will iterate through each within range, and check to see if the n fits the while stipulation. If it does, then it will go through the while loop. Because there is only information enough to tell that every i in range(n) will trigger the while loop, then worst case scenario is O(n^2)
+b) O(n^2) The runtime for B is O(n^2) due to the fact that there are two loops. one for loop, and one while loop. The for loop will iterate through each within range, and check to see if the n fits the while stipulation. If it does, then it will go through the while loop. Because there is only information enough to tell that every i in range(n) will trigger the while loop, then worst case scenario is O(n^2) - O(nLogn) - correct answer
 
 c) O(n) Even though it's recursive, it will still be O(n) since it's only performing one action on each input until the base case is reached.
 
